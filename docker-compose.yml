@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  server:
+    build: ./packages/bff/
+    command: npm start
+    ports: 
+      - "3000:3000"
+  # web:
+  #   build: ./packages/web/
+  #   ports: 
+  #     - "80:80"
+  #     - "4012:9090"

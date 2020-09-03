@@ -1,0 +1,22 @@
+{
+  "name": "neo-web-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "jest"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "author": "Lucas Filipe Bittencurt <lucas.bittencurt@neogrid.com>",
+  "license": "private",
+  "devDependencies": {
+    "@types/jest": "^26.0.12",
+    "jest": "26.0.1",
+    "ts-jest": "26.1.0",
+    "typescript": "^3.7.4"
+  }
+}
