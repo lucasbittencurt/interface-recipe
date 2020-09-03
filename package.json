@@ -1,5 +1,5 @@
 {
-  "name": "neo-web-template",
+  "name": "interface-recipe",
   "version": "1.0.0",
   "main": "index.js",
   "private": true,
@@ -11,7 +11,7 @@
       "packages/*"
     ]
   },
-  "author": "Lucas Filipe Bittencurt <lucas.bittencurt@neogrid.com>",
+  "author": "Lucas Filipe Bittencurt <bittencurt.lucas@outlook.com>",
   "license": "private",
   "devDependencies": {
     "@types/jest": "^26.0.12",
