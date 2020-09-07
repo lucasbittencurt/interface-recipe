@@ -1,0 +1,4 @@
+!.jest
+dist
+.vscode
+node_modules/
