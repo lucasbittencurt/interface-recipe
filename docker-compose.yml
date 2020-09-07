@@ -1,13 +1,17 @@
 version: "3"
 
 services:
-  server:
-    build: ./packages/bff/
-    command: npm start
+  bff:
+    build:
+      context: .
+      dockerfile: ./.docker/bff/Dockerfile
     ports: 
       - "3000:3000"
-  # web:
-  #   build: ./packages/web/
-  #   ports: 
-  #     - "80:80"
-  #     - "4012:9090"
+    volumes:
+        - .:/code
+  nextjs: 
+    build: 
+      context: .
+      dockerfile: ./.docker/web/Dockerfile
+    ports: 
+      - "3001:3000"
