@@ -1,0 +1,44 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "standard",
+    "standard-react",
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "env": {
+    "browser": true,
+    "es2020": true,
+    "jest": true,
+    "node": true
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "legacyDecorators": true,
+      "jsx": true
+    },
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "plugins": ["react", "react-hooks"],
+  "rules": {
+    "space-before-function-paren": 0,
+    "react/prop-types": 0,
+    "react/jsx-handler-names": 0,
+    "react/jsx-fragments": 0,
+    "react/no-unused-prop-types": 0,
+    "import/export": 0,
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "react/react-in-jsx-scope": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off"
+  }
+}
