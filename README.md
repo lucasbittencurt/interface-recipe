@@ -43,3 +43,6 @@ yarn dev:build
 # run docker environment
 yarn dev:run
 ```
+
+## References
+The web project is based on [React Avançado Boilerplate](https://github.com/React-Avancado/boilerplate)
