@@ -1,4 +1,4 @@
-# 🧁 <br> Interface Recipe
+![Interface Recipe](https://raw.githubusercontent.com/lbittencurt/interface-recipe/3961fb162cd8edda582eda3116326ce364378466/assets/interface_recipe_logo.svg)
 
 This is a boilerplate to be used to build React web applications with a Node BFF (Backend for Frontend).
 
